@@ -1,5 +1,6 @@
-# AI-Pipline-DEV
-Pipline_development
+# Palantir-Pipline-DEV
+
+
 ## ML Model
 
 ## Overview
@@ -32,3 +33,6 @@ We currently support the following machine learning models:
 All models are integrated into a modular training pipeline and support hyperparameter tuning, cross-validation, and interpretability tools (e.g., SHAP values, feature importance).
 
 ## Folder Structure
+# Platform
+
+This pipeline is developed and run on **Palantir Foundry**, which provides scalable infrastructure for secure data integration, transformation, and analysis. Foundry enables seamless collaboration and reproducibility across the research team.
