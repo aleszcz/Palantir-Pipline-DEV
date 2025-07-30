@@ -36,3 +36,9 @@ All models are integrated into a modular training pipeline and support hyperpara
 # Platform
 
 This pipeline is developed and run on **Palantir Foundry**, which provides scalable infrastructure for secure data integration, transformation, and analysis. Foundry enables seamless collaboration and reproducibility across the research team.
+### Repository Layout
+
+### Key Script: `palantir_pipeline_facttable_dev.py`
+- Filters the patient fact table to isolate **female delivery patients** using Palantir concept sets.
+- Applies transformations using Spark and Palantir’s `@transform_df` decorators.
+- Outputs a clean delivery-only cohort for downstream analysis.
